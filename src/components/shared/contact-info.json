@@ -1,0 +1,67 @@
+{
+  "collectionName": "components_shared_contact_infos",
+  "info": {
+    "displayName": "Contact-Info",
+    "icon": "brush"
+  },
+  "options": {},
+  "attributes": {
+    "Logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "QueryTitle": {
+      "type": "string"
+    },
+    "EmailLogo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Email": {
+      "type": "string"
+    },
+    "CallLogo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Number": {
+      "type": "integer"
+    },
+    "Location1": {
+      "type": "string"
+    },
+    "Address1": {
+      "type": "text"
+    },
+    "Number1": {
+      "type": "integer"
+    },
+    "Location2": {
+      "type": "string"
+    },
+    "Address2": {
+      "type": "string"
+    },
+    "Number2": {
+      "type": "integer"
+    }
+  }
+}

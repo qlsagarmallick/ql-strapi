@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_shared_footer_bases",
+  "info": {
+    "displayName": "Footer-Base",
+    "icon": "folder",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "BaseLogo": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Link1": {
+      "type": "string"
+    },
+    "Link2": {
+      "type": "string"
+    },
+    "Link3": {
+      "type": "string"
+    },
+    "Link4": {
+      "type": "string"
+    },
+    "Link5": {
+      "type": "string"
+    },
+    "Link6": {
+      "type": "string"
+    },
+    "Link7": {
+      "type": "string"
+    },
+    "Link8": {
+      "type": "string"
+    },
+    "Link9": {
+      "type": "string"
+    }
+  }
+}

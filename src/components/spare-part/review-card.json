@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_shared_seo_review_cards",
+  "info": {
+    "displayName": "Review-Card",
+    "icon": "cog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "CompanyName": {
+      "type": "string"
+    },
+    "Rating": {
+      "type": "float"
+    },
+    "Description": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_home_page_awards",
+  "info": {
+    "displayName": "Awards",
+    "icon": "thumbUp"
+  },
+  "options": {},
+  "attributes": {
+    "Badge": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Plateform": {
+      "displayName": "Plateform",
+      "type": "component",
+      "repeatable": true,
+      "component": "spare-part.plateform"
+    }
+  }
+}

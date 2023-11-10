@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_page_services",
+  "info": {
+    "displayName": "Services",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "ServicesCard": {
+      "displayName": "Services-Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "spare-part.services-card"
+    }
+  }
+}

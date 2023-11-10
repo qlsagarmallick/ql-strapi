@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_home_page_business_visions",
+  "info": {
+    "displayName": "BusinessVision",
+    "icon": "code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "BusinessCard": {
+      "displayName": "Business-Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "spare-part.business-card"
+    }
+  }
+}

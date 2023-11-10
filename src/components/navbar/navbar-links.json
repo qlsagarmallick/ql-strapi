@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_navbar_navbar_links",
+  "info": {
+    "displayName": "Navbar-Links",
+    "icon": "stack",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "LinkTitle": {
+      "type": "string"
+    }
+  }
+}

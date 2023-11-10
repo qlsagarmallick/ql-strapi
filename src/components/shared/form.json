@@ -1,0 +1,80 @@
+{
+  "collectionName": "components_shared_forms",
+  "info": {
+    "displayName": "Form",
+    "icon": "repeat",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Field1": {
+      "type": "enumeration",
+      "enum": [
+        "Name",
+        "Email",
+        "Contact",
+        "Purpose",
+        "How can we help you?",
+        "Send me NDA"
+      ]
+    },
+    "Field2": {
+      "type": "enumeration",
+      "enum": [
+        "Name",
+        "Email",
+        "Contact",
+        "Purpose",
+        "How can we help you?",
+        "Send me NDA"
+      ]
+    },
+    "Field3": {
+      "type": "enumeration",
+      "enum": [
+        "Name",
+        "Email",
+        "Contact",
+        "Purpose",
+        "How can we help you?",
+        "Send me NDA"
+      ]
+    },
+    "Field4": {
+      "type": "enumeration",
+      "enum": [
+        "Name",
+        "Email",
+        "Contact",
+        "Purpose",
+        "How can we help you?",
+        "Send me NDA"
+      ]
+    },
+    "Field5": {
+      "type": "enumeration",
+      "enum": [
+        "Name",
+        "Email",
+        "Contact",
+        "Purpose",
+        "How can we help you?",
+        "Send me NDA"
+      ]
+    },
+    "Field6": {
+      "type": "enumeration",
+      "enum": [
+        "Name",
+        "Email",
+        "Contact",
+        "Purpose",
+        "How can we help you?",
+        "Send me NDA"
+      ]
+    },
+    "Button": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_home_page_glimpses",
+  "info": {
+    "displayName": "Glimpses",
+    "icon": "cloud"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "GlimpsesCard": {
+      "displayName": "Glimpses-Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "spare-part.glimpses-card"
+    },
+    "Asking": {
+      "type": "string"
+    },
+    "Button": {
+      "type": "string"
+    }
+  }
+}

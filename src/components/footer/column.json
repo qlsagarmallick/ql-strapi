@@ -1,0 +1,59 @@
+{
+  "collectionName": "components_shared_columns",
+  "info": {
+    "displayName": "Column",
+    "icon": "crop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Link1": {
+      "type": "string"
+    },
+    "Link2": {
+      "type": "string"
+    },
+    "Link3": {
+      "type": "string"
+    },
+    "Link4": {
+      "type": "string"
+    },
+    "Link5": {
+      "type": "string"
+    },
+    "Link6": {
+      "type": "string"
+    },
+    "Link7": {
+      "type": "string"
+    },
+    "Link8": {
+      "type": "string"
+    },
+    "Link9": {
+      "type": "string"
+    },
+    "Link11": {
+      "type": "string"
+    },
+    "Link12": {
+      "type": "string"
+    },
+    "Link13": {
+      "type": "string"
+    },
+    "Link14": {
+      "type": "string"
+    },
+    "Link15": {
+      "type": "string"
+    },
+    "Link16": {
+      "type": "string"
+    }
+  }
+}

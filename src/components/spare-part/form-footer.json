@@ -1,0 +1,65 @@
+{
+  "collectionName": "components_shared_form_footers",
+  "info": {
+    "displayName": "Form-Footer",
+    "icon": "feather",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Button": {
+      "type": "string"
+    },
+    "ConnectTitle": {
+      "type": "string"
+    },
+    "EmailLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "EmailText": {
+      "type": "string"
+    },
+    "WhatsappLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "WhatsappText": {
+      "type": "string"
+    },
+    "SkypeLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "SkypeText": {
+      "type": "string"
+    }
+  }
+}

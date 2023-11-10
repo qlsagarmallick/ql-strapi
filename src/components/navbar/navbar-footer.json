@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_navbar_navbar_footers",
+  "info": {
+    "displayName": "Navbar-Footer",
+    "icon": "collapse",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Email": {
+      "type": "string"
+    },
+    "SocialLink1": {
+      "type": "string"
+    },
+    "SocialLink2": {
+      "type": "string"
+    },
+    "SocialLink3": {
+      "type": "string"
+    },
+    "SocialLink4": {
+      "type": "string"
+    }
+  }
+}
