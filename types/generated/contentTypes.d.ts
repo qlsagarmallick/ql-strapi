@@ -368,13 +368,27 @@ export interface ApiHomeHome extends Schema.SingleType {
     singularName: 'home';
     pluralName: 'homes';
     displayName: 'Home';
+    description: '';
   };
   options: {
     draftAndPublish: true;
   };
   attributes: {
-    heading: Attribute.String;
-    description: Attribute.Text;
+    Banner: Attribute.Component<'home-page.banner'>;
+    Seo: Attribute.Component<'shared.seo'>;
+    Navbar: Attribute.Component<'shared.navbar'>;
+    Rating: Attribute.Component<'home-page.rating'>;
+    BusinessVision: Attribute.Component<'home-page.business-vision'>;
+    Counter: Attribute.Component<'home-page.counter'>;
+    Services: Attribute.Component<'home-page.services'>;
+    Talents: Attribute.Component<'home-page.talents'>;
+    Industries: Attribute.Component<'home-page.industries'>;
+    DevelopmentStack: Attribute.Component<'home-page.development-stack'>;
+    Glimpses: Attribute.Component<'home-page.glimpses'>;
+    Testimonial: Attribute.Component<'shared.testimonial'>;
+    Awards: Attribute.Component<'home-page.awards'>;
+    ContactForm: Attribute.Component<'shared.contact-form'>;
+    Footer: Attribute.Component<'shared.footer'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

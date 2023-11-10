@@ -4,18 +4,102 @@
   "info": {
     "singularName": "home",
     "pluralName": "homes",
-    "displayName": "Home"
+    "displayName": "Home",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "heading": {
-      "type": "string"
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.banner"
     },
-    "description": {
-      "type": "text"
+    "Seo": {
+      "displayName": "Seo",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "Navbar": {
+      "displayName": "Navbar",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.navbar"
+    },
+    "Rating": {
+      "displayName": "Rating",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.rating"
+    },
+    "BusinessVision": {
+      "displayName": "BusinessVision",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.business-vision"
+    },
+    "Counter": {
+      "displayName": "Counter",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.counter"
+    },
+    "Services": {
+      "displayName": "Services",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.services"
+    },
+    "Talents": {
+      "displayName": "Talents",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.talents"
+    },
+    "Industries": {
+      "displayName": "Industries",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.industries"
+    },
+    "DevelopmentStack": {
+      "displayName": "Development-Stack",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.development-stack"
+    },
+    "Glimpses": {
+      "displayName": "Glimpses",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.glimpses"
+    },
+    "Testimonial": {
+      "displayName": "Testimonial",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.testimonial"
+    },
+    "Awards": {
+      "displayName": "Awards",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.awards"
+    },
+    "ContactForm": {
+      "displayName": "Contact-Form",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.contact-form"
+    },
+    "Footer": {
+      "displayName": "Footer",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.footer"
     }
   }
 }

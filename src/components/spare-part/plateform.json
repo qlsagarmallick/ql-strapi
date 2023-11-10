@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_plateforms",
+  "info": {
+    "displayName": "Plateform",
+    "icon": "crown",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

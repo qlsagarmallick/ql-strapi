@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_shared_services_cards",
+  "info": {
+    "displayName": "Services-Card",
+    "icon": "priceTag",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Button": {
+      "type": "string"
+    }
+  }
+}

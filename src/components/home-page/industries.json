@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_page_industries",
+  "info": {
+    "displayName": "Industries",
+    "icon": "attachment"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "IndustriesView": {
+      "displayName": "Industries-View",
+      "type": "component",
+      "repeatable": true,
+      "component": "spare-part.industries-view"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_home_page_development_stacks",
+  "info": {
+    "displayName": "Development-Stack",
+    "icon": "cog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "TechCategories": {
+      "displayName": "Tech-Categories",
+      "type": "component",
+      "repeatable": true,
+      "component": "spare-part.tech-categories"
+    },
+    "Tech1": {
+      "type": "string"
+    },
+    "Tech2": {
+      "type": "string"
+    }
+  }
+}

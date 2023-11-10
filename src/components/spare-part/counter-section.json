@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_counter_sections",
+  "info": {
+    "displayName": "Counter-Section",
+    "icon": "plus",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Value": {
+      "type": "integer"
+    },
+    "Text": {
+      "type": "string"
+    }
+  }
+}

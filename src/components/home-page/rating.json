@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_home_page_ratings",
+  "info": {
+    "displayName": "Rating",
+    "icon": "thumbUp",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "ReviewCard": {
+      "displayName": "Review-Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "spare-part.review-card"
+    }
+  }
+}

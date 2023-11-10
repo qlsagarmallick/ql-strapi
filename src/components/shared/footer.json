@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_home_page_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Column": {
+      "displayName": "Column",
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.column"
+    },
+    "FooterBase": {
+      "displayName": "Footer-Base",
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.footer-base"
+    }
+  }
+}

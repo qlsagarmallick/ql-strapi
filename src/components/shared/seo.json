@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_seo_seos",
+  "info": {
+    "displayName": "Seo",
+    "icon": "code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "MetaTitle": {
+      "type": "string"
+    },
+    "MetaDescription": {
+      "type": "string"
+    },
+    "MetaRobot": {
+      "type": "string"
+    },
+    "Keyword": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "string"
+    }
+  }
+}

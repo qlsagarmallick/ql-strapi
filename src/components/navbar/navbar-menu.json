@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_navbar_navbar_menus",
+  "info": {
+    "displayName": "NavbarMenu",
+    "icon": "check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "StackTitle": {
+      "type": "string"
+    },
+    "List1": {
+      "type": "string"
+    },
+    "List2": {
+      "type": "string"
+    },
+    "List3": {
+      "type": "string"
+    },
+    "List4": {
+      "type": "string"
+    },
+    "List5": {
+      "type": "string"
+    },
+    "List6": {
+      "type": "string"
+    },
+    "List7": {
+      "type": "string"
+    },
+    "List8": {
+      "type": "string"
+    },
+    "List9": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

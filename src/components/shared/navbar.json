@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_shared_seo_navbars",
+  "info": {
+    "displayName": "Navbar",
+    "icon": "bell",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "NavbarLinks": {
+      "displayName": "Navbar-Links",
+      "type": "component",
+      "repeatable": true,
+      "component": "navbar.navbar-links"
+    },
+    "NavbarMenu": {
+      "displayName": "NavbarMenu",
+      "type": "component",
+      "repeatable": true,
+      "component": "navbar.navbar-menu"
+    },
+    "NavbarFooter": {
+      "displayName": "Navbar-Footer",
+      "type": "component",
+      "repeatable": false,
+      "component": "navbar.navbar-footer"
+    }
+  }
+}

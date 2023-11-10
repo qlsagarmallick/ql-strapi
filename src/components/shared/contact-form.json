@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_home_page_contact_forms",
+  "info": {
+    "displayName": "Contact-Form",
+    "icon": "envelop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "ProjectsImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Form": {
+      "displayName": "Form",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.form"
+    },
+    "FormFooter": {
+      "displayName": "Form-Footer",
+      "type": "component",
+      "repeatable": false,
+      "component": "spare-part.form-footer"
+    }
+  }
+}
